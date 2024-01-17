@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+	/* for giving space at backside that blue one space*/
+}
 body{
   background-color: cyan;
  
