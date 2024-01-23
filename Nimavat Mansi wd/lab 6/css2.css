@@ -1,0 +1,63 @@
+.img{
+	height: 75px;
+	width: 75px;
+	float: left;
+	padding-right: 100px;
+	padding: 20px;
+
+}
+.link{
+	float:left;
+	
+	text-decoration: none;
+	margin: 25px;
+	font-size: 20px;
+	
+}
+#b{
+	border: dashed;
+	height: 275px;
+
+
+}
+#sub1{
+	height:275px;
+	width: 25%;
+	background-color: red;
+	float: left;
+}
+#subdiv1{
+
+	border:solid yellow;
+	border-top: solid black;
+	text-align: center;
+	
+
+}
+#subdiv2{
+	
+	border:solid yellow;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 5px;
+
+	 
+
+}
+#sub2{
+	width: 75%;
+	height: 275px;
+	float: right;
+	margin-left: 
+}
+#img1{
+	height: 75px;
+	width: 75px;
+	
+	padding-right: 100px;
+	padding: 20px;
+
+}
+
+
+	
