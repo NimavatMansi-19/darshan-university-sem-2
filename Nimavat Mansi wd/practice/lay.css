@@ -1,0 +1,111 @@
+#part1{
+	background-color: greenyellow;
+	height: 100px;
+	width: 1000px;
+}
+#logo{
+	height: 100px;
+	width:200px ;
+	float: left;
+	
+
+}
+#link{
+	font-size: 25px;
+	height: 50px;
+	margin-left: 150px;
+	float: left;
+	margin-top: 20px;
+	
+}
+.link1{
+	font-size: 25px;
+	height: 50px;
+	margin-left:20px;
+	float: left;
+	margin-top: 20px;
+
+}
+
+#part2{
+	background-color: grey;
+	height: 550px;
+	width: 1000px;
+}
+#part3{
+	background-color: black;
+	height: 25px;
+	width: 1000px;
+	color: white;
+}
+#sidebar{
+	background-color: red;
+	height: 530px;
+	width: 170px;
+	float: left;
+	margin: 10px;
+	font-size: 30px;
+
+}
+#content{
+	background-color: yellow;
+	height: 530px;
+	width: 790px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+#c1{
+	background-color: cyan;
+	height: 400px;
+	width: 230px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-right: 40px;
+	margin-top: 20px;
+	float: left;
+	
+	
+
+}
+#c2{
+	background-color: cyan;
+	height: 400px;
+	width: 230px;
+	
+	margin-bottom:30px;
+	margin-top: 20px;
+	float: left;
+}
+#c3{
+	background-color: cyan;
+	height: 400px;
+	width: 230px;
+	margin-left: 550px;
+	margin-bottom: 30px;
+	
+	margin-top: 40px;
+
+}
+	
+.img{
+	height: 150px;
+	width: 150px;
+	margin-left: 35px;
+	margin-top: 20px;
+	border: solid;
+	border-radius: 15px;
+	
+}
+#para{
+	font-size: 15px;
+	margin-left: 10px;
+
+}
+h4{
+	text-align: center;
+}
+
+
