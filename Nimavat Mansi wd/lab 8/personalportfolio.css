@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+#main{
+	width: 100%;
+	
+	height: 1000px;
+
+}
+#part1{
+	width: 100%;
+	height: 100px;
+	
+}
+#logo{
+	height: 90px;
+	width: 10%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.link{
+	height: 40px;
+	float: right;
+	margin-right: 10px;
+
+}
+#part2{
+	height: 600px;
+	width: 100%;
+	
+}
+#part3{
+	height: 300px;
+	width: 100%;
+}
+.box{
+	height: 200px;
+	border: solid red;
+	text-align: center;
+	width:15%;
+	margin-left: 5%;
+	float: left; 
+	color: blue;
+}
+.box1{
+	height: 200px;
+	border: solid red;
+	text-align: center;
+	width:15%;
+	margin-left: 7%;
+	float: left;
+	color: blue; 
+}
+
