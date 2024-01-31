@@ -21,7 +21,7 @@
 	background-color: rgb(90, 3, 252);
 }
 #part2{
-	height: 400px;
+	height: 350px;
 	width: 900px;
 	
 	margin-right: 50px;
@@ -33,11 +33,13 @@
 	width: 30px;
 	text-decoration: none;
 	margin-left: 10px;
+	color: black;
 }
 #button{
 	background-color: red;
 	border-right: 1px solid;
-	border-radius: 7px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 #hire{ 
 	background-color: red;
@@ -65,4 +67,12 @@
 	border-radius: 100px;
 	margin-top: 25px;
 	margin-left: 10px;
+}
+.box:hover{
+	height: 150px;
+	width: 100px;
+	border: 1px solid;
+	border-radius: 7px;
+	background-color: #c9d1c5;
+	background-color: grey;
 }
