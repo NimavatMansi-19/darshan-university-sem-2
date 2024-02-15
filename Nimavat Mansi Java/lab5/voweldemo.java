@@ -1,11 +1,8 @@
 import java.util.*;
 class AskString{
 	String sen;
-	public AskString(){
-		Scanner sc=new Scanner(System.in);
-		System.out.println("enter Sentence:");
-		sen=sc.nextLine();
-		
+	public AskString(String sen){
+		this.sen=sen;
 		
 		
 	}
@@ -16,15 +13,10 @@ class AskString{
 				count++;
 			}
 			
-		}System.out.println(count);
-	}
-	public void quit(){
-		for(int i=0;i<1000;i++){
-			if(sen=="quit"){
-				break;
-			}
 		}
+		System.out.println(count);
 	}
+	
 	}
 
 	
@@ -32,17 +24,23 @@ class AskString{
 
 public class voweldemo{
 	public static void main(String[] args) {
-		AskString[] str=new AskString[5];
-		for(int j=0;j<5;j++){
-		str[j]=new AskString();
-	}
-	for(int j=0;j<5;j++){
+		
+		AskString[] str=new AskString[1000];
+		for(int j=0;j<str.length;j++){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter Sentence:");
+		String a=sc.nextLine();
+		str[j]=new AskString(a);
+		String b=str[j].sen;
+		
+		if(b.equals("quit")){
+				break;
+			}
 		str[j].vowel();
-	}
-	for(int j=0;j<5;j++){
-		if(str[j].sen=="quit"){
-			break;
-		}
-	}
+		
+		
+}
+	
+	
 	}
 	}
