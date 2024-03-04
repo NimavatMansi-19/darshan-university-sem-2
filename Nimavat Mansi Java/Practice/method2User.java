@@ -10,6 +10,8 @@ public class method2User{
 		double xn=sc.nextDouble();
 		int[] x=new int[a];
 		int[] y=new int[a];
+		int[] z=new int[a];
+		z=y;
 		for(int i=0;i<x.length;i++){
 			System.out.println("Enter value of X"+i);
 			 x[i]=sc.nextInt();
@@ -33,13 +35,14 @@ public class method2User{
 		}
 		double p=(xn-x[0])/(x[1]-x[0]);
 		double temp=p;
-		double ans;
+		double ans=z[0];
 		System.out.println(p);
 		function m=new function();
 		//System.out.println(m.fac(a));
 		for(int i=0;i<a;i++){
-			element[i]=Integer.parseInt(String.format("%s1000.4f",element[i]));
-			ans+=(m.element[i]*m.func[i])/m.fac(i);
+			element[i]=Integer.valueOf(df.format(element[i]));
+			//ans=ans+element[i+1] ;
+			System.out.println(element[i]);
 
 		}
 		
@@ -57,9 +60,9 @@ public int fac(int a){
 		return a*(a-1);
 	}
 }
-public double func(int a){
-	for(int i=1;i<a;i++){//here there will be error
-		p=p*(p-i);
-	}
-}
+// public double func(int a){
+// 	for(int i=1;i<a;i++){//here there will be error
+// 		p=p*(p-i);
+// 	}
+//}
 }
