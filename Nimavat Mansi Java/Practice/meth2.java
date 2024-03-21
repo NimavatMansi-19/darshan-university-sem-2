@@ -33,6 +33,7 @@ public class meth2{
 				y=del;
 		
 		}
+
 		double p=(xn-x[0])/(x[1]-x[0]);
 		double temp=p;
 		double ans=z[0];
@@ -40,7 +41,7 @@ public class meth2{
 		//function m=new function();
 		for(int i=0;i<a-1;i++){
 			element[i]=Integer.valueOf(df.format(element[i]));
-			ans=ans+((func(a,temp)*element[i+1])/fac(i+1)) ;
+			ans=ans+((func(i,temp)*element[i+1])/fac(i+1)) ;
 			
 		}
 		System.out.println(ans);
@@ -58,13 +59,18 @@ public class meth2{
 	}
 }
 public static double func(int a,double p){
-	double value=1;
-	for(int k=0;k<a-1;k++){
-	value=value*(p-k);
+	double value=p;
+	p=p-1;
+
+	for(int k=0;k<a;k++){
+		value*=p;
+		p=p-1;
+		
+	}
+
 	return value;
-	}
 	
-	}
+	
 
-
+}
 }
